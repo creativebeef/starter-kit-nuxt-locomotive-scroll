@@ -41,7 +41,7 @@
             class="example-small-square"
             data-scroll
             data-scroll-speed="2.5"
-          />
+          /div>
           <div
             class="example-big-square"
             data-scroll
@@ -63,11 +63,7 @@
           />
         </div>
       </div>
-      <footer data-scroll-section>
-        <nuxt-link to="/horizontal-scroll/">
-          Go to Horizontal Scroll
-        </nuxt-link>
-      </footer>
+      <footer data-scroll-section></footer>
     </div>
   </LocomotiveScroll>
 </template>
